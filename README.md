@@ -46,28 +46,45 @@ The findings emphasize the importance of selecting the appropriate resampling me
 
 ## How to run
 
-1. Download a Sports Image Classification data set from kaggle. https://www.kaggle.com/datasets/sidharkal/sports-image-classification/data
+1. **Download the Dataset**  
+   Download the Sports Image Classification dataset from Kaggle:  
+   [Sports Image Classification Dataset](https://www.kaggle.com/datasets/sidharkal/sports-image-classification/data)
 
-2. Open and run the notebooks
+2. **Set Up Environment**  
+   Install the required Python packages using the following command:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
+3. **Open Jupyter Notebook**  
+   Navigate to the `notebooks/` directory and open the following files:
+   - `Training_with_Gaussian_Pyramid.ipynb`
+   - `NearestNeighborInterpolation.ipynb`
+   - `Wavelet_Transform_Resampling.ipynb`
+   - `datamining-3.ipynb`
+   - `dataminingPart5.ipynb`
 
-3. Explore results through provided plots and metrics.
+4. **Explore the Results**  
+   Analyze the results through the plots and metrics provided in the notebooks.
 
 ---
 
 ## Contributions
-- Wonjoon Hwang: Setup experiments and implemented SRCNN resampling.
-- Zhizheng Wang: Implemented and evaluated Wavelet Transform resampling.
-- Khoa Le: Conducted Bilinear and Bicubic Interpolation analysis.
-- Chih-Yuan Tung: Explored Gaussian Pyramid resampling.
-- Brett Ruane: Evaluated Nearest Neighbor Interpolation.
+
+- **Wonjoon Hwang**: Setup experiments and implemented SRCNN resampling.
+- **Zhizheng Wang**: Implemented and evaluated Wavelet Transform resampling.
+- **Khoa Le**: Conducted Bilinear and Bicubic Interpolation analysis.
+- **Chih-Yuan Tung**: Explored Gaussian Pyramid resampling.
+- **Brett Ruane**: Evaluated Nearest Neighbor Interpolation.
 
 ---
 
 ## References
 
-• Bashir, Syed Muhammad Arsalan, et al. ”A compre- hensive review of deep learning-based single image super-resolution.” PeerJ Computer Science 7 (2021): e621.
-• Dong, Chao, et al. ”Image super-resolution us- ing deep convolutional networks.” IEEE Transac- tions on Pattern Analysis and Machine Intelli- gence, vol. 38, no. 2, 2016, pp. 295–307, https://doi.org/10.1109/TPAMI.2015.2439281.
-• Mallat, S., & Hwang, W. L. (1992). Singular- ity detection and processing with wavelets. IEEE Transactions on Information Theory, 38(2), 617–643. https://doi.org/10.1109/18.119727
-• Rukundo, Olivier, and Hanqiang Cao. ”Near- est neighbor value interpolation.” arXiv preprint arXiv:1211.1768 (2012).
-• Verma, Atul & Saini, Barjinder. (2017). Forward- backward processing technique for image denoising using FDZP 2D filter. Journal of Applied Research and Technology. 15. 10.1016/j.jart.2017.07.001.
+1. Bashir, Syed Muhammad Arsalan, et al., "A comprehensive review of deep learning-based single image super-resolution." PeerJ Computer Science 7 (2021): e621.
+2. Dong, Chao, et al., "Image super-resolution using deep convolutional networks." IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 38, no. 2, 2016, pp. 295–307. [DOI: 10.1109/TPAMI.2015.2439281](https://doi.org/10.1109/TPAMI.2015.2439281)
+3. Mallat, S., & Hwang, W. L., "Singularity detection and processing with wavelets." IEEE Transactions on Information Theory, 38(2), 617–643. [DOI: 10.1109/18.119727](https://doi.org/10.1109/18.119727)
+4. Rukundo, Olivier, and Hanqiang Cao, "Nearest neighbor value interpolation." arXiv preprint [arXiv:1211.1768](https://arxiv.org/abs/1211.1768) (2012).
+5. Verma, Atul & Saini, Barjinder, "Forward-backward processing technique for image denoising using FDZP 2D filter." Journal of Applied Research and Technology, 15. [DOI: 10.1016/j.jart.2017.07.001](https://doi.org/10.1016/j.jart.2017.07.001)
 
+---
