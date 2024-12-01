@@ -42,6 +42,8 @@ The findings emphasize the importance of selecting the appropriate resampling me
 ├── README.md
 └── LICENSE
 
+---
+
 ## How to Run
 
 1. Download a Sports Image Classification data set from kaggle. https://www.kaggle.com/datasets/sidharkal/sports-image-classification/data
@@ -50,12 +52,16 @@ The findings emphasize the importance of selecting the appropriate resampling me
 
 3. Explore results through provided plots and metrics.
 
+---
+
 ## Contributions
 - Wonjoon Hwang: Setup experiments and implemented SRCNN resampling.
 - Zhizheng Wang: Implemented and evaluated Wavelet Transform resampling.
 - Khoa Le: Conducted Bilinear and Bicubic Interpolation analysis.
 - Chih-Yuan Tung: Explored Gaussian Pyramid resampling.
 - Brett Ruane: Evaluated Nearest Neighbor Interpolation.
+
+---
 
 ## References
 
