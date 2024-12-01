@@ -41,10 +41,10 @@ The findings emphasize the importance of selecting the appropriate resampling me
 ├── Final Paper.pdf
 ├── README.md
 └── LICENSE
-
+```
 ---
 
-## How to Run
+## How to run
 
 1. Download a Sports Image Classification data set from kaggle. https://www.kaggle.com/datasets/sidharkal/sports-image-classification/data
 
